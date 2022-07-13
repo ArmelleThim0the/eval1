@@ -1,0 +1,51 @@
+#log {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+.contenant {
+    position: relative;
+    text-align: center;
+    color: rgb(13, 13, 13);
+  }
+  
+  .texte_centrer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  nav {
+    list-style:inherit
+    display: inline;
+    margin: 0%;
+  }
+ 
+  ul li {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+img {
+    background-image: url(/phare.jpg);
+    background-repeat: no-repeat;
+}
+
+
+.container { font-family: arial; color:#FFF;}
+container-1, container-2, container-3, container-4, container-5, container-6, container-7{ display:flex; justify-content:center; align-items:center; padding:10px;}
+container-1 { background-image: image(/umbrella.png); }
+container-2 { background-color: #3498db; }
+container-3 { background-color: #9b59b6; }
+container-4 { background-color: #e67e22; }
+container-5 { background-color: #e74c3c; }
+container-6 {background-color: rgb(49, 79, 86);}
+container-7 {background-color: darkred;}
+/* Editer a partir d'ici */
+
+.container {
+  display: grid;
+  grid-template-columns: 300px 300px;
+  grid-template-rows: 200px 200px 200px;
+}
